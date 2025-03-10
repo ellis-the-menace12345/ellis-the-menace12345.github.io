@@ -84,6 +84,7 @@ function changeSections(country) {
 
 function showErrors() {
 	infoSection.innerHTML = `<h1>Information</h1><p>No information available for given country.</p>`;	
+	borderingCountriesSection.innerHTML = `<h1>Neighbors</h1><p>No neighbors.</p>`;
 }
 
 function displayCountryInfo(country) {
