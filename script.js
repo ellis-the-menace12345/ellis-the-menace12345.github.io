@@ -90,7 +90,7 @@ function showErrors() {
 function displayCountryInfo(country) {
 	let info = getCountryInfo(country)
 		.then((country) => changeSections(country))
-		.catch((error) => console.log(error));
+		.catch((error) => showErrors());
 }
 
 
